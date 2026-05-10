@@ -97,7 +97,7 @@ const Index = () => {
               <Brain className="w-7 h-7 text-primary" />
               <div className="absolute inset-0 blur-md bg-primary/40 rounded-full" />
             </div>
-            <span className="text-gradient">NeuroReach AI</span>
+            <span className="text-gradient">AIwired</span>
           </a>
           <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             <a href="#services" className="hover:text-foreground transition-colors">Services</a>
@@ -333,7 +333,7 @@ const Index = () => {
                 <iframe
                   className="w-full h-full"
                   src={`https://www.youtube.com/embed/${id}`}
-                  title="NeuroReach AI promo"
+                  title="AIwired promo"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -352,7 +352,7 @@ const Index = () => {
               <div className="text-sm text-accent font-semibold mb-3">ABOUT</div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">A content-driven agency built only for AI.</h2>
               <p className="text-muted-foreground text-lg mb-6">
-                NeuroReach AI is a focused team of strategists, creators, and editors obsessed with one thing: making AI products famous. We don't do generic marketing — we live in the AI space, speak its language, and know exactly what makes a tool go viral.
+                AIwired is a focused team of strategists, creators, and editors obsessed with one thing: making AI products famous. We don't do generic marketing — we live in the AI space, speak its language, and know exactly what makes a tool go viral.
               </p>
               <ul className="space-y-3">
                 {[
@@ -462,9 +462,9 @@ const Index = () => {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 font-bold">
             <Brain className="w-5 h-5 text-primary" />
-            <span className="text-gradient">NeuroReach AI</span>
+            <span className="text-gradient">AIwired</span>
           </div>
-          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} NeuroReach AI. Built for AI startups.</p>
+          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} AIwired. Built for AI startups.</p>
           <div className="flex gap-5 text-xs text-muted-foreground">
             <a href="#services" className="hover:text-foreground">Services</a>
             <a href="#work" className="hover:text-foreground">Work</a>
