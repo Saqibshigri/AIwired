@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# AIwired
 
-TODO: Document your project here
+This repository contains the AIwired landing page project.
