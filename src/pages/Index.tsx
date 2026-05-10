@@ -157,10 +157,47 @@ const Index = () => {
         </div>
       </section>
 
+      {/* HOT-PINK TRUST BANNER (ENET-inspired) */}
+      <section className="py-16">
+        <div className="container">
+          <div
+            data-reveal
+            className="relative overflow-hidden rounded-3xl p-8 md:p-14"
+            style={{ background: "var(--gradient-hot)" }}
+          >
+            <div className="absolute inset-0 grid-bg opacity-20 pointer-events-none" />
+            <div className="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-white/10 blur-3xl" />
+            <div className="relative grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 text-white text-xs font-semibold mb-4">
+                  <Sparkles className="w-3.5 h-3.5" /> Hundreds of AI brands
+                </div>
+                <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-tight">
+                  We turn AI products<br />into long-term growth.
+                </h2>
+                <p className="mt-4 text-white/85 max-w-md">
+                  Each quarter we partner with dozens of AI startups, connecting them to millions of viewers across YouTube, Shorts, and Reels.
+                </p>
+              </div>
+              <div className="grid grid-cols-3 gap-3">
+                {["120M+", "8.4M", "60+", "11.6%", "12+", "6.4x"].map((v, i) => (
+                  <div key={i} className="rounded-xl bg-white/15 backdrop-blur-sm p-4 text-center border border-white/20">
+                    <div className="text-2xl font-extrabold text-white">{v}</div>
+                    <div className="text-[10px] uppercase tracking-wider text-white/80 mt-1">
+                      {["views", "audience", "startups", "engagement", "channels", "avg roi"][i]}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FEATURED AI TOOLS MARQUEE */}
       <section className="py-12 border-y border-border/50 overflow-hidden">
         <div className="container mb-6">
-          <p className="text-center text-xs uppercase tracking-widest text-muted-foreground">Featured AI Tools We've Promoted</p>
+          <p className="text-center text-xs uppercase tracking-widest text-muted-foreground">Trusted by leading AI tools & SaaS brands</p>
         </div>
         <div className="relative flex overflow-hidden">
           <div className="flex animate-marquee whitespace-nowrap">
